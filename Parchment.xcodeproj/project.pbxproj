@@ -153,6 +153,7 @@
 		95FEEA4D2423C44A009B5B64 /* MockPageViewManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FEEA4C2423C44A009B5B64 /* MockPageViewManagerDelegate.swift */; };
 		95FEEA4F2423F213009B5B64 /* PageViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FEEA4E2423F213009B5B64 /* PageViewManager.swift */; };
 		95FEEA512423F752009B5B64 /* MockPageViewManagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FEEA502423F752009B5B64 /* MockPageViewManagerDataSource.swift */; };
+		D35166C12E4AEB6B0002FCDA /* InTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35166C02E4AEB670002FCDA /* InTabView.swift */; };
 		E8CB720A23D70E1400A9B089 /* PagingMenuPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB720923D70E1400A9B089 /* PagingMenuPosition.swift */; };
 /* End PBXBuildFile section */
 
@@ -370,6 +371,7 @@
 		95FEEA4C2423C44A009B5B64 /* MockPageViewManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPageViewManagerDelegate.swift; sourceTree = "<group>"; };
 		95FEEA4E2423F213009B5B64 /* PageViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewManager.swift; sourceTree = "<group>"; };
 		95FEEA502423F752009B5B64 /* MockPageViewManagerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPageViewManagerDataSource.swift; sourceTree = "<group>"; };
+		D35166C02E4AEB670002FCDA /* InTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTabView.swift; sourceTree = "<group>"; };
 		E8CB720923D70E1400A9B089 /* PagingMenuPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuPosition.swift; sourceTree = "<group>"; };
 		E9D1BE1D211E409400E86B72 /* PagingMenuItemSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingMenuItemSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -774,6 +776,7 @@
 		95D2AE50242BCC9500AC3D46 /* ExampleSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D35166C02E4AEB670002FCDA /* InTabView.swift */,
 				95D2AE5F242BCC9900AC3D46 /* Info.plist */,
 				95D2AE51242BCC9500AC3D46 /* ExampleApp.swift */,
 				95D2AE55242BCC9500AC3D46 /* DefaultView.swift */,
@@ -1197,6 +1200,7 @@
 				956FFFD229BE273B00477E94 /* CustomizedView.swift in Sources */,
 				95D2AE52242BCC9500AC3D46 /* ExampleApp.swift in Sources */,
 				956F000A29CCFC6C00477E94 /* InterpolatedView.swift in Sources */,
+				D35166C12E4AEB6B0002FCDA /* InTabView.swift in Sources */,
 				95428A562B80F6EA00D61143 /* ScrollingView.swift in Sources */,
 				956FFFCC29BE1FD100477E94 /* ChangeItemsView.swift in Sources */,
 				95F83D6426237D2B003B728F /* SelectedIndexView.swift in Sources */,

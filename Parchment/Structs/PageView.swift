@@ -182,6 +182,7 @@ public struct PageView: View {
             onDidSelect: onDidSelect,
             selectedIndex: $selectedIndex
         )
+        .ignoresSafeArea(edges: .bottom)
     }
 }
 
